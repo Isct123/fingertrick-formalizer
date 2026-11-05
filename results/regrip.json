@@ -1,0 +1,491 @@
+{
+  "protocol": {
+    "data": {
+      "recorded_archive_total": 1218,
+      "usable_exact_path_completed_attempts": 1190,
+      "unrepresented_control_attempts": 20,
+      "excluded_reported_failures": 8,
+      "duplicate_label_attempts_remapped_to_actual_execution": 30,
+      "cases": 66,
+      "physical_paths": 88,
+      "collection_counts": {
+        "original_480": 480,
+        "earlier_six_cases_60": 60,
+        "earlier_oll38_92": 92,
+        "historical_350": 350,
+        "new_TY_112": 112,
+        "new_six_PLL_48": 48,
+        "new_Y_factorial_48": 48
+      },
+      "latest_collection_priority": {
+        "original_480": 0,
+        "earlier_six_cases_60": 1,
+        "earlier_oll38_92": 2,
+        "historical_350": 3,
+        "new_TY_112": 4,
+        "new_six_PLL_48": 5,
+        "new_Y_factorial_48": 6
+      }
+    },
+    "seeds": [
+      20261102,
+      20261103,
+      20261104
+    ],
+    "outer_case_folds": 5,
+    "inner_case_folds": 3,
+    "candidates": [
+      {
+        "method": "rate_reference",
+        "alpha": 0.01
+      },
+      {
+        "method": "rate_reference",
+        "alpha": 1.0
+      },
+      {
+        "method": "rate_reference",
+        "alpha": 100.0
+      },
+      {
+        "method": "count_reference",
+        "alpha": 0.01
+      },
+      {
+        "method": "count_reference",
+        "alpha": 1.0
+      },
+      {
+        "method": "count_reference",
+        "alpha": 100.0
+      },
+      {
+        "method": "huber_action_hybrid",
+        "delta": 0.03,
+        "alpha": 1.0,
+        "mix": 0.2
+      },
+      {
+        "method": "huber_action_hybrid",
+        "delta": 0.03,
+        "alpha": 100.0,
+        "mix": 0.2
+      },
+      {
+        "method": "huber_action_hybrid",
+        "delta": 0.08,
+        "alpha": 1.0,
+        "mix": 0.2
+      },
+      {
+        "method": "huber_action_hybrid",
+        "delta": 0.08,
+        "alpha": 100.0,
+        "mix": 0.2
+      },
+      {
+        "method": "huber_regrip",
+        "alpha": 1.0,
+        "delta": 0.03,
+        "mix": 0.1
+      },
+      {
+        "method": "huber_regrip",
+        "alpha": 1.0,
+        "delta": 0.03,
+        "mix": 0.3
+      },
+      {
+        "method": "huber_regrip",
+        "alpha": 1.0,
+        "delta": 0.08,
+        "mix": 0.1
+      },
+      {
+        "method": "huber_regrip",
+        "alpha": 1.0,
+        "delta": 0.08,
+        "mix": 0.3
+      },
+      {
+        "method": "huber_regrip",
+        "alpha": 100.0,
+        "delta": 0.03,
+        "mix": 0.1
+      },
+      {
+        "method": "huber_regrip",
+        "alpha": 100.0,
+        "delta": 0.03,
+        "mix": 0.3
+      },
+      {
+        "method": "huber_regrip",
+        "alpha": 100.0,
+        "delta": 0.08,
+        "mix": 0.1
+      },
+      {
+        "method": "huber_regrip",
+        "alpha": 100.0,
+        "delta": 0.08,
+        "mix": 0.3
+      }
+    ]
+  },
+  "metrics": {
+    "rate_reference": {
+      "trial_mae_s": 0.23673343648747638,
+      "path_mean_mae_s": 0.1509946860323163,
+      "trial_by_seed_s": [
+        0.23717600192793567,
+        0.23149444336139793,
+        0.24152986417309547
+      ],
+      "mean_by_seed_s": [
+        0.15063685895964585,
+        0.14357677114764428,
+        0.15877042798965876
+      ],
+      "comparisons": {
+        "rate_reference": {
+          "trial": {
+            "reduction_percent": 0.0,
+            "conditional95_percent": [
+              0.0,
+              0.0
+            ],
+            "conditional95_difference_s": [
+              0.0,
+              0.0
+            ],
+            "case_wins": 0
+          },
+          "mean": {
+            "reduction_percent": 0.0,
+            "conditional95_percent": [
+              0.0,
+              0.0
+            ],
+            "conditional95_difference_s": [
+              0.0,
+              0.0
+            ],
+            "case_wins": 0
+          }
+        },
+        "count_reference": {
+          "trial": {
+            "reduction_percent": 5.813928077054731,
+            "conditional95_percent": [
+              1.2775436836832796,
+              10.337731681209965
+            ],
+            "conditional95_difference_s": [
+              -0.0271597526761425,
+              -0.0029993945962032273
+            ],
+            "case_wins": 42
+          },
+          "mean": {
+            "reduction_percent": 14.077948829535082,
+            "conditional95_percent": [
+              4.21740988613863,
+              23.08263373305122
+            ],
+            "conditional95_difference_s": [
+              -0.043999636339962546,
+              -0.006652948389829272
+            ],
+            "case_wins": 36
+          }
+        }
+      }
+    },
+    "count_reference": {
+      "trial_mae_s": 0.25134654376620646,
+      "path_mean_mae_s": 0.17573449885728476,
+      "trial_by_seed_s": [
+        0.24841666825882874,
+        0.2547937958336331,
+        0.25082916720615744
+      ],
+      "mean_by_seed_s": [
+        0.17350946146633844,
+        0.17978796496736127,
+        0.1739060701381545
+      ],
+      "comparisons": {
+        "rate_reference": {
+          "trial": {
+            "reduction_percent": -6.172810860836386,
+            "conditional95_percent": [
+              -11.529634345929548,
+              -1.2940760707878058
+            ],
+            "conditional95_difference_s": [
+              0.002999394596203224,
+              0.02715975267614249
+            ],
+            "case_wins": 23
+          },
+          "mean": {
+            "reduction_percent": -16.384558606038336,
+            "conditional95_percent": [
+              -30.00965172588462,
+              -4.403106982412539
+            ],
+            "conditional95_difference_s": [
+              0.006652948389829269,
+              0.04399963633996254
+            ],
+            "case_wins": 30
+          }
+        },
+        "count_reference": {
+          "trial": {
+            "reduction_percent": 0.0,
+            "conditional95_percent": [
+              0.0,
+              0.0
+            ],
+            "conditional95_difference_s": [
+              0.0,
+              0.0
+            ],
+            "case_wins": 0
+          },
+          "mean": {
+            "reduction_percent": 0.0,
+            "conditional95_percent": [
+              0.0,
+              0.0
+            ],
+            "conditional95_difference_s": [
+              0.0,
+              0.0
+            ],
+            "case_wins": 0
+          }
+        }
+      }
+    },
+    "huber_action_hybrid": {
+      "trial_mae_s": 0.22681650913488002,
+      "path_mean_mae_s": 0.14471084550233984,
+      "trial_by_seed_s": [
+        0.22808277353020662,
+        0.22404972326278988,
+        0.22831703061164355
+      ],
+      "mean_by_seed_s": [
+        0.14870829138929564,
+        0.13996633575065456,
+        0.14545790936706932
+      ],
+      "comparisons": {
+        "rate_reference": {
+          "trial": {
+            "reduction_percent": 4.189069148717839,
+            "conditional95_percent": [
+              -0.2684169669107686,
+              8.727285047970541
+            ],
+            "conditional95_difference_s": [
+              -0.020866925948267626,
+              0.0006275012737981497
+            ],
+            "case_wins": 40
+          },
+          "mean": {
+            "reduction_percent": 4.161630250108017,
+            "conditional95_percent": [
+              -7.51838369763803,
+              14.643689608873414
+            ],
+            "conditional95_difference_s": [
+              -0.02262379074785392,
+              0.010765834087367993
+            ],
+            "case_wins": 36
+          }
+        },
+        "count_reference": {
+          "trial": {
+            "reduction_percent": 9.759447758368022,
+            "conditional95_percent": [
+              3.3389241403767813,
+              16.200569957895283
+            ],
+            "conditional95_difference_s": [
+              -0.04227130121723858,
+              -0.007960262656580995
+            ],
+            "case_wins": 43
+          },
+          "mean": {
+            "reduction_percent": 17.65370690255843,
+            "conditional95_percent": [
+              3.707442836630456,
+              29.814116166187468
+            ],
+            "conditional95_difference_s": [
+              -0.05645959766371341,
+              -0.00594295092912727
+            ],
+            "case_wins": 38
+          }
+        }
+      }
+    },
+    "huber_regrip": {
+      "trial_mae_s": 0.22534819449809115,
+      "path_mean_mae_s": 0.14331874626376484,
+      "trial_by_seed_s": [
+        0.22602691483052295,
+        0.22416958086628921,
+        0.2258480877974613
+      ],
+      "mean_by_seed_s": [
+        0.14636818628219284,
+        0.1407749698617407,
+        0.14281308264736098
+      ],
+      "comparisons": {
+        "rate_reference": {
+          "trial": {
+            "reduction_percent": 4.8093087982472245,
+            "conditional95_percent": [
+              0.5404451527072662,
+              9.181681377657496
+            ],
+            "conditional95_difference_s": [
+              -0.02200527491088614,
+              -0.0012623694791282453
+            ],
+            "case_wins": 39
+          },
+          "mean": {
+            "reduction_percent": 5.083582720857239,
+            "conditional95_percent": [
+              -6.115869204964793,
+              15.134656904314726
+            ],
+            "conditional95_difference_s": [
+              -0.023703334795078548,
+              0.008744204042833869
+            ],
+            "case_wins": 37
+          }
+        },
+        "count_reference": {
+          "trial": {
+            "reduction_percent": 10.343627120768396,
+            "conditional95_percent": [
+              3.9301605062759233,
+              16.80790995961774
+            ],
+            "conditional95_difference_s": [
+              -0.043871459002025284,
+              -0.009460546610516382
+            ],
+            "case_wins": 40
+          },
+          "mean": {
+            "reduction_percent": 18.44586737624294,
+            "conditional95_percent": [
+              4.891644379412803,
+              30.424052266523635
+            ],
+            "conditional95_difference_s": [
+              -0.058255266145667985,
+              -0.007723463454380171
+            ],
+            "case_wins": 34
+          }
+        }
+      }
+    },
+    "nested_trial": {
+      "trial_mae_s": 0.22545118113264834,
+      "path_mean_mae_s": 0.14312808420367495,
+      "trial_by_seed_s": [
+        0.2272157446951866,
+        0.22328971090529715,
+        0.2258480877974613
+      ],
+      "mean_by_seed_s": [
+        0.1471883341780853,
+        0.13938283578557858,
+        0.14281308264736098
+      ],
+      "comparisons": {
+        "rate_reference": {
+          "trial": {
+            "reduction_percent": 4.765805592242522,
+            "conditional95_percent": [
+              0.4257658920597902,
+              9.265114929112164
+            ],
+            "conditional95_difference_s": [
+              -0.02199675450875623,
+              -0.0009641582912145219
+            ],
+            "case_wins": 39
+          },
+          "mean": {
+            "reduction_percent": 5.209853429515865,
+            "conditional95_percent": [
+              -6.103089452889381,
+              15.354325745356606
+            ],
+            "conditional95_difference_s": [
+              -0.023879285435462187,
+              0.008687034589002291
+            ],
+            "case_wins": 37
+          }
+        },
+        "count_reference": {
+          "trial": {
+            "reduction_percent": 10.302653159872023,
+            "conditional95_percent": [
+              3.867282548871225,
+              16.780831166501724
+            ],
+            "conditional95_difference_s": [
+              -0.04373450136450227,
+              -0.00926602812633367
+            ],
+            "case_wins": 41
+          },
+          "mean": {
+            "reduction_percent": 18.554361759149927,
+            "conditional95_percent": [
+              4.996843557324729,
+              30.54799496142554
+            ],
+            "conditional95_difference_s": [
+              -0.05820980077697539,
+              -0.0078165393449251
+            ],
+            "case_wins": 35
+          }
+        }
+      }
+    }
+  },
+  "selection_frequency": {
+    "huber_regrip": 12,
+    "huber_action_hybrid": 3
+  },
+  "convergence": {
+    "fits": 570,
+    "irls_not_at_tolerance": 145,
+    "convex_polishes": 145,
+    "polish_failures": 0,
+    "maximum_polish_gradient": 4.797241209305962e-07,
+    "iteration_cap": 60,
+    "tolerance_s": 1e-06
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "primitives": [
+    {
+      "id": "U_NORMAL",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "U_BACK"
+      ],
+      "result": [
+        "FRONT",
+        "U_FRONT"
+      ],
+      "local_move": [
+        "U",
+        1
+      ],
+      "translation_allowed": true,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:U_NORMAL",
+      "family": "UN",
+      "mirrored_family": "UNp"
+    },
+    {
+      "id": "U_PRIME_OH",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "U_FRONT"
+      ],
+      "result": [
+        "FRONT",
+        "U_BACK"
+      ],
+      "local_move": [
+        "U",
+        3
+      ],
+      "translation_allowed": true,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:U_PRIME_OH",
+      "family": "UOHp",
+      "mirrored_family": null
+    },
+    {
+      "id": "F_THUMB",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "F_A"
+      ],
+      "result": [
+        "FRONT",
+        "F_B"
+      ],
+      "local_move": [
+        "F",
+        1
+      ],
+      "translation_allowed": true,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:F_THUMB",
+      "family": "FT",
+      "mirrored_family": null
+    },
+    {
+      "id": "F_PRIME_THUMB",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "F_B"
+      ],
+      "result": [
+        "FRONT",
+        "F_A"
+      ],
+      "local_move": [
+        "F",
+        3
+      ],
+      "translation_allowed": true,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:F_PRIME_THUMB",
+      "family": "FTp",
+      "mirrored_family": null
+    },
+    {
+      "id": "D_RING",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "D_A"
+      ],
+      "result": [
+        "FRONT",
+        "D_B"
+      ],
+      "local_move": [
+        "D",
+        1
+      ],
+      "translation_allowed": true,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:D_RING",
+      "family": "DR",
+      "mirrored_family": null
+    },
+    {
+      "id": "D_PRIME_RING",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "D_B"
+      ],
+      "result": [
+        "FRONT",
+        "D_A"
+      ],
+      "local_move": [
+        "D",
+        3
+      ],
+      "translation_allowed": true,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:D_PRIME_RING",
+      "family": "DRp",
+      "mirrored_family": null
+    },
+    {
+      "id": "R_FRONT",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "NEUTRAL"
+      ],
+      "result": [
+        "TOP",
+        "NEUTRAL"
+      ],
+      "local_move": [
+        "R",
+        1
+      ],
+      "translation_allowed": false,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:R_FRONT",
+      "family": "R",
+      "mirrored_family": null
+    },
+    {
+      "id": "R_PRIME_FRONT",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "NEUTRAL"
+      ],
+      "result": [
+        "BOTTOM",
+        "NEUTRAL"
+      ],
+      "local_move": [
+        "R",
+        3
+      ],
+      "translation_allowed": false,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:R_PRIME_FRONT",
+      "family": "Rp",
+      "mirrored_family": null
+    },
+    {
+      "id": "U2_FLICK",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "U2_A"
+      ],
+      "result": [
+        "FRONT",
+        "U2_B"
+      ],
+      "local_move": [
+        "U",
+        2
+      ],
+      "translation_allowed": true,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:U2_FLICK",
+      "family": "U2",
+      "mirrored_family": "U2"
+    },
+    {
+      "id": "D2_FLICK",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "D2_A"
+      ],
+      "result": [
+        "FRONT",
+        "D2_B"
+      ],
+      "local_move": [
+        "D",
+        2
+      ],
+      "translation_allowed": true,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:D2_FLICK",
+      "family": "D2",
+      "mirrored_family": "D2"
+    },
+    {
+      "id": "F_POINTER",
+      "active_hand": "RIGHT",
+      "required": [
+        "FRONT",
+        "FP_A"
+      ],
+      "result": [
+        "FRONT",
+        "FP_B"
+      ],
+      "local_move": [
+        "F",
+        1
+      ],
+      "translation_allowed": true,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:F_POINTER",
+      "family": "FP",
+      "mirrored_family": "FP"
+    },
+    {
+      "id": "R_PRIME_TOP",
+      "active_hand": "RIGHT",
+      "required": [
+        "TOP",
+        "NEUTRAL"
+      ],
+      "result": [
+        "FRONT",
+        "NEUTRAL"
+      ],
+      "local_move": [
+        "R",
+        3
+      ],
+      "translation_allowed": false,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:R_PRIME_TOP",
+      "family": "Rp",
+      "mirrored_family": "Rp"
+    },
+    {
+      "id": "R2_BOTTOM_TOP",
+      "active_hand": "RIGHT",
+      "required": [
+        "BOTTOM",
+        "NEUTRAL"
+      ],
+      "result": [
+        "TOP",
+        "NEUTRAL"
+      ],
+      "local_move": [
+        "R",
+        2
+      ],
+      "translation_allowed": false,
+      "reflection_allowed": true,
+      "parameter_key": "MOVE:R2_BOTTOM_TOP",
+      "family": "R2",
+      "mirrored_family": "R2"
+    }
+  ]
+}

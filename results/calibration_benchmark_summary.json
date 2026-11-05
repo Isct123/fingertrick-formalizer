@@ -1,0 +1,61 @@
+{
+  "graphs": 30,
+  "conditions": 900,
+  "risk_calculations": 11880,
+  "uniform_additive_vs_basis": {
+    "conditions": 900,
+    "lower": 797,
+    "higher": 71,
+    "equal": 32,
+    "median_reduction_percent": 67.73726860307154
+  },
+  "uniform_blend_vs_G": {
+    "conditions": 900,
+    "lower": 583,
+    "higher": 246,
+    "equal": 71,
+    "median_reduction_percent": 48.071639898562964
+  },
+  "uniform_blend_vs_direct_variance_allocation": {
+    "conditions": 900,
+    "lower": 359,
+    "higher": 481,
+    "equal": 60,
+    "median_reduction_percent": -12.017437899501449
+  },
+  "by_variance_ratio": {
+    "1": {
+      "conditions": 300,
+      "lower": 268,
+      "higher": 0,
+      "equal": 32,
+      "median_reduction_percent": 83.73049149778711
+    },
+    "4": {
+      "conditions": 300,
+      "lower": 266,
+      "higher": 34,
+      "equal": 0,
+      "median_reduction_percent": 67.41554460717524
+    },
+    "16": {
+      "conditions": 300,
+      "lower": 263,
+      "higher": 37,
+      "equal": 0,
+      "median_reduction_percent": 56.69457965535138
+    }
+  },
+  "uniform_losses_by_structure": {
+    "no_redundant_paths": 60,
+    "redundant_paths_available": 11
+  },
+  "retrospective_pilot_blend": {
+    "training_labels": 12,
+    "within_training_folds": 2,
+    "chosen_weight": 0.5495380213404332,
+    "held_out_mse_s2": 0.08319323540651129,
+    "original_balanced_mse_s2": 0.08427218055555559,
+    "direct_mse_s2": 0.08718779166666665
+  }
+}

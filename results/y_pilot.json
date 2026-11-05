@@ -1,0 +1,247 @@
+{
+  "source": "outputs\\factorial_pilot_20261102\\Y_PLL_calibration_test_48_CLEAR.xlsx",
+  "source_sha256": "59b3593645c0be47f6aad9607d02c236334385caf06c91a7b5a8fe9ceb3d9ed6",
+  "manifest_sha256": "89e7d107764276120d1feeccaef363a7a530ff69a39f542fdefadd446992272e",
+  "base_manifest_sha256": "d1829d79490978ac2de3651f7d7c0346c2587495ef3f25433c26b4e2a5d9378f",
+  "confirmation": {
+    "date": "2026-11-02"
+  },
+  "training_labels_each": 12,
+  "fitting_pool": 18,
+  "held_out": 30,
+  "executions": 6,
+  "models": {
+    "balanced": {
+      "training_runs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        13,
+        14,
+        16,
+        17
+      ],
+      "coefficients": [
+        1.5251666666666677,
+        0.2764999999999999,
+        -0.15899999999999992,
+        -0.07083333333333286
+      ],
+      "predictions_s": [
+        1.5251666666666677,
+        1.4543333333333348,
+        1.8016666666666676,
+        1.7308333333333348,
+        1.3661666666666679,
+        1.295333333333335
+      ],
+      "held_out_mse_s2": 0.08427218055555541,
+      "held_out_rmse_s": 0.29029671123792533,
+      "held_out_mae_s": 0.20588333333333342,
+      "sample_mean_mae_s": 0.08887222222222124,
+      "sample_mean_mse_s2": 0.010082020555555373
+    },
+    "basis": {
+      "training_runs": [
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "coefficients": [
+        1.5326666666666675,
+        0.17866666666666642,
+        -0.16666666666666674,
+        0.07499999999999989
+      ],
+      "predictions_s": [
+        1.5326666666666675,
+        1.6076666666666675,
+        1.711333333333334,
+        1.7863333333333338,
+        1.3660000000000008,
+        1.4410000000000007
+      ],
+      "held_out_mse_s2": 0.08953541851851848,
+      "held_out_rmse_s": 0.2992246957029424,
+      "held_out_mae_s": 0.21932222222222236,
+      "sample_mean_mae_s": 0.10725555555555562,
+      "sample_mean_mse_s2": 0.015345258518518487
+    }
+  },
+  "paths": [
+    {
+      "id": "PLL_Y_factor_1_1",
+      "label": "D",
+      "levels": [
+        0,
+        0
+      ],
+      "test_times_s": [
+        1.724,
+        1.557,
+        2.45,
+        1.615,
+        1.197
+      ],
+      "test_mean_s": 1.7086,
+      "balanced_prediction_s": 1.5251666666666677,
+      "basis_prediction_s": 1.5326666666666675,
+      "balanced_mse_s2": 0.20232562777777746,
+      "basis_mse_s2": 0.19963037777777753
+    },
+    {
+      "id": "PLL_Y_factor_1_2",
+      "label": "E",
+      "levels": [
+        0,
+        1
+      ],
+      "test_times_s": [
+        1.255,
+        2.121,
+        1.256,
+        1.547,
+        1.416
+      ],
+      "test_mean_s": 1.5189999999999997,
+      "balanced_prediction_s": 1.4543333333333348,
+      "basis_prediction_s": 1.6076666666666675,
+      "balanced_mse_s2": 0.10671417777777761,
+      "basis_mse_s2": 0.11039417777777794
+    },
+    {
+      "id": "PLL_Y_factor_2_1",
+      "label": "F",
+      "levels": [
+        1,
+        0
+      ],
+      "test_times_s": [
+        2.05,
+        2.037,
+        1.681,
+        1.638,
+        2.139
+      ],
+      "test_mean_s": 1.909,
+      "balanced_prediction_s": 1.8016666666666676,
+      "basis_prediction_s": 1.711333333333334,
+      "balanced_mse_s2": 0.05443844444444419,
+      "basis_mse_s2": 0.08199011111111076
+    },
+    {
+      "id": "PLL_Y_factor_2_2",
+      "label": "B",
+      "levels": [
+        1,
+        1
+      ],
+      "test_times_s": [
+        1.682,
+        1.626,
+        2.394,
+        1.614,
+        1.727
+      ],
+      "test_mean_s": 1.8085999999999998,
+      "balanced_prediction_s": 1.7308333333333348,
+      "basis_prediction_s": 1.7863333333333338,
+      "balanced_mse_s2": 0.09336589444444425,
+      "basis_mse_s2": 0.08781404444444445
+    },
+    {
+      "id": "PLL_Y_factor_3_1",
+      "label": "A",
+      "levels": [
+        2,
+        0
+      ],
+      "test_times_s": [
+        1.119,
+        1.361,
+        1.169,
+        1.382,
+        1.516
+      ],
+      "test_mean_s": 1.3094,
+      "balanced_prediction_s": 1.3661666666666679,
+      "basis_prediction_s": 1.3660000000000008,
+      "balanced_mse_s2": 0.024538694444444578,
+      "basis_mse_s2": 0.024519800000000085
+    },
+    {
+      "id": "PLL_Y_factor_3_2",
+      "label": "C",
+      "levels": [
+        2,
+        1
+      ],
+      "test_times_s": [
+        1.507,
+        1.117,
+        1.207,
+        1.427,
+        1.435
+      ],
+      "test_mean_s": 1.3386,
+      "balanced_prediction_s": 1.295333333333335,
+      "basis_prediction_s": 1.4410000000000007,
+      "balanced_mse_s2": 0.024250244444444295,
+      "basis_mse_s2": 0.03286400000000014
+    }
+  ],
+  "balanced_vs_basis": {
+    "mse_reduction_percent": 5.8783865089930725,
+    "rmse_reduction_percent": 2.983705754648136,
+    "mae_reduction_percent": 6.127463397335243,
+    "sample_mean_mae_reduction_percent": 17.139749300736483,
+    "sample_mean_mse_reduction_percent": 34.29878979628461,
+    "executions_with_lower_mse": 3,
+    "paired_execution_bootstrap_95pct_mse_reduction": [
+      -2.0047232872149268,
+      20.998197694602496
+    ]
+  },
+  "rectangle_residuals_s": [
+    0.08919999999999995,
+    0.21880000000000033
+  ],
+  "held_out_within_execution_sd_s": [
+    0.4591811189498105,
+    0.3580020949659373,
+    0.2316192997139918,
+    0.3303752412030902,
+    0.1632338812869436,
+    0.16725071001344058
+  ],
+  "descriptive_mse_decomposition": {
+    "within_test_execution_spread_s2": 0.07419016000000002,
+    "balanced_squared_error_to_test_means_s2": 0.010082020555555373,
+    "basis_squared_error_to_test_means_s2": 0.015345258518518487,
+    "within_spread_fraction_of_balanced_test_mse": 0.8803635969890569
+  },
+  "held_out_final_factor_contrasts_s": [
+    -0.1896000000000002,
+    -0.10040000000000027,
+    0.029200000000000115
+  ],
+  "rectangle_standard_errors_s_descriptive": [
+    0.3167990214631352,
+    0.28058185971299
+  ],
+  "limitations": []
+}

@@ -1,0 +1,648 @@
+[
+  {
+    "source_filename": "execution\\D with ring finger.mp4",
+    "frame_sheet": "media/turns_and_executions/clip_00.jpg",
+    "frames": 186,
+    "nominal_fps": 30.0527269169385,
+    "approximate_duration_s": 6.189122222222222,
+    "samples": [
+      {
+        "frame": 0,
+        "nominal_time_s": 0.0
+      },
+      {
+        "frame": 17,
+        "nominal_time_s": 0.5656724611708482
+      },
+      {
+        "frame": 34,
+        "nominal_time_s": 1.1313449223416965
+      },
+      {
+        "frame": 50,
+        "nominal_time_s": 1.663742532855436
+      },
+      {
+        "frame": 67,
+        "nominal_time_s": 2.229414994026284
+      },
+      {
+        "frame": 84,
+        "nominal_time_s": 2.7950874551971325
+      },
+      {
+        "frame": 101,
+        "nominal_time_s": 3.360759916367981
+      },
+      {
+        "frame": 118,
+        "nominal_time_s": 3.9264323775388292
+      },
+      {
+        "frame": 135,
+        "nominal_time_s": 4.492104838709677
+      },
+      {
+        "frame": 151,
+        "nominal_time_s": 5.024502449223417
+      },
+      {
+        "frame": 168,
+        "nominal_time_s": 5.590174910394265
+      },
+      {
+        "frame": 185,
+        "nominal_time_s": 6.155847371565113
+      }
+    ]
+  },
+  {
+    "source_filename": "execution\\D' with ring finger.mp4",
+    "frame_sheet": "media/turns_and_executions/clip_01.jpg",
+    "frames": 130,
+    "nominal_fps": 29.993924307640246,
+    "approximate_duration_s": 4.334211111111111,
+    "samples": [
+      {
+        "frame": 0,
+        "nominal_time_s": 0.0
+      },
+      {
+        "frame": 12,
+        "nominal_time_s": 0.40008102564102566
+      },
+      {
+        "frame": 23,
+        "nominal_time_s": 0.7668219658119658
+      },
+      {
+        "frame": 35,
+        "nominal_time_s": 1.1669029914529916
+      },
+      {
+        "frame": 47,
+        "nominal_time_s": 1.5669840170940172
+      },
+      {
+        "frame": 59,
+        "nominal_time_s": 1.967065042735043
+      },
+      {
+        "frame": 70,
+        "nominal_time_s": 2.333805982905983
+      },
+      {
+        "frame": 82,
+        "nominal_time_s": 2.7338870085470086
+      },
+      {
+        "frame": 94,
+        "nominal_time_s": 3.1339680341880345
+      },
+      {
+        "frame": 106,
+        "nominal_time_s": 3.53404905982906
+      },
+      {
+        "frame": 117,
+        "nominal_time_s": 3.90079
+      },
+      {
+        "frame": 129,
+        "nominal_time_s": 4.300871025641026
+      }
+    ]
+  },
+  {
+    "source_filename": "execution\\D2 double flick.mp4",
+    "frame_sheet": "media/turns_and_executions/clip_02.jpg",
+    "frames": 164,
+    "nominal_fps": 30.078252363873492,
+    "approximate_duration_s": 5.452444444444445,
+    "samples": [
+      {
+        "frame": 0,
+        "nominal_time_s": 0.0
+      },
+      {
+        "frame": 15,
+        "nominal_time_s": 0.49869918699186994
+      },
+      {
+        "frame": 30,
+        "nominal_time_s": 0.9973983739837399
+      },
+      {
+        "frame": 44,
+        "nominal_time_s": 1.4628509485094852
+      },
+      {
+        "frame": 59,
+        "nominal_time_s": 1.961550135501355
+      },
+      {
+        "frame": 74,
+        "nominal_time_s": 2.4602493224932247
+      },
+      {
+        "frame": 89,
+        "nominal_time_s": 2.958948509485095
+      },
+      {
+        "frame": 104,
+        "nominal_time_s": 3.4576476964769647
+      },
+      {
+        "frame": 119,
+        "nominal_time_s": 3.9563468834688345
+      },
+      {
+        "frame": 133,
+        "nominal_time_s": 4.42179945799458
+      },
+      {
+        "frame": 148,
+        "nominal_time_s": 4.920498644986449
+      },
+      {
+        "frame": 163,
+        "nominal_time_s": 5.41919783197832
+      }
+    ]
+  },
+  {
+    "source_filename": "execution\\F with thumb.mp4",
+    "frame_sheet": "media/turns_and_executions/clip_03.jpg",
+    "frames": 136,
+    "nominal_fps": 29.993898300100714,
+    "approximate_duration_s": 4.534255555555556,
+    "samples": [
+      {
+        "frame": 0,
+        "nominal_time_s": 0.0
+      },
+      {
+        "frame": 12,
+        "nominal_time_s": 0.4000813725490196
+      },
+      {
+        "frame": 25,
+        "nominal_time_s": 0.8335028594771242
+      },
+      {
+        "frame": 37,
+        "nominal_time_s": 1.2335842320261439
+      },
+      {
+        "frame": 49,
+        "nominal_time_s": 1.6336656045751634
+      },
+      {
+        "frame": 61,
+        "nominal_time_s": 2.033746977124183
+      },
+      {
+        "frame": 74,
+        "nominal_time_s": 2.4671684640522877
+      },
+      {
+        "frame": 86,
+        "nominal_time_s": 2.8672498366013075
+      },
+      {
+        "frame": 98,
+        "nominal_time_s": 3.267331209150327
+      },
+      {
+        "frame": 110,
+        "nominal_time_s": 3.6674125816993466
+      },
+      {
+        "frame": 123,
+        "nominal_time_s": 4.100834068627451
+      },
+      {
+        "frame": 135,
+        "nominal_time_s": 4.5009154411764705
+      }
+    ]
+  },
+  {
+    "source_filename": "execution\\F' with thumb.mp4",
+    "frame_sheet": "media/turns_and_executions/clip_04.jpg",
+    "frames": 125,
+    "nominal_fps": 29.99312157745157,
+    "approximate_duration_s": 4.167622222222223,
+    "samples": [
+      {
+        "frame": 0,
+        "nominal_time_s": 0.0
+      },
+      {
+        "frame": 11,
+        "nominal_time_s": 0.36675075555555553
+      },
+      {
+        "frame": 23,
+        "nominal_time_s": 0.7668424888888888
+      },
+      {
+        "frame": 34,
+        "nominal_time_s": 1.1335932444444445
+      },
+      {
+        "frame": 45,
+        "nominal_time_s": 1.500344
+      },
+      {
+        "frame": 56,
+        "nominal_time_s": 1.8670947555555555
+      },
+      {
+        "frame": 68,
+        "nominal_time_s": 2.267186488888889
+      },
+      {
+        "frame": 79,
+        "nominal_time_s": 2.633937244444444
+      },
+      {
+        "frame": 90,
+        "nominal_time_s": 3.000688
+      },
+      {
+        "frame": 101,
+        "nominal_time_s": 3.3674387555555554
+      },
+      {
+        "frame": 113,
+        "nominal_time_s": 3.7675304888888888
+      },
+      {
+        "frame": 124,
+        "nominal_time_s": 4.134281244444445
+      }
+    ]
+  },
+  {
+    "source_filename": "execution\\R from_front_face.mp4",
+    "frame_sheet": "media/turns_and_executions/clip_05.jpg",
+    "frames": 125,
+    "nominal_fps": 29.993921231963654,
+    "approximate_duration_s": 4.167511111111112,
+    "samples": [
+      {
+        "frame": 0,
+        "nominal_time_s": 0.0
+      },
+      {
+        "frame": 11,
+        "nominal_time_s": 0.3667409777777778
+      },
+      {
+        "frame": 23,
+        "nominal_time_s": 0.7668220444444445
+      },
+      {
+        "frame": 34,
+        "nominal_time_s": 1.1335630222222224
+      },
+      {
+        "frame": 45,
+        "nominal_time_s": 1.500304
+      },
+      {
+        "frame": 56,
+        "nominal_time_s": 1.8670449777777778
+      },
+      {
+        "frame": 68,
+        "nominal_time_s": 2.2671260444444448
+      },
+      {
+        "frame": 79,
+        "nominal_time_s": 2.6338670222222222
+      },
+      {
+        "frame": 90,
+        "nominal_time_s": 3.000608
+      },
+      {
+        "frame": 101,
+        "nominal_time_s": 3.367348977777778
+      },
+      {
+        "frame": 113,
+        "nominal_time_s": 3.7674300444444446
+      },
+      {
+        "frame": 124,
+        "nominal_time_s": 4.1341710222222225
+      }
+    ]
+  },
+  {
+    "source_filename": "execution\\U' more traditional way.mp4",
+    "frame_sheet": "media/turns_and_executions/clip_06.jpg",
+    "frames": 139,
+    "nominal_fps": 29.991009889121965,
+    "approximate_duration_s": 4.634722222222222,
+    "samples": [
+      {
+        "frame": 0,
+        "nominal_time_s": 0.0
+      },
+      {
+        "frame": 13,
+        "nominal_time_s": 0.4334632294164668
+      },
+      {
+        "frame": 25,
+        "nominal_time_s": 0.8335831334932055
+      },
+      {
+        "frame": 38,
+        "nominal_time_s": 1.2670463629096722
+      },
+      {
+        "frame": 50,
+        "nominal_time_s": 1.667166266986411
+      },
+      {
+        "frame": 63,
+        "nominal_time_s": 2.1006294964028775
+      },
+      {
+        "frame": 75,
+        "nominal_time_s": 2.5007494004796165
+      },
+      {
+        "frame": 88,
+        "nominal_time_s": 2.9342126298960833
+      },
+      {
+        "frame": 100,
+        "nominal_time_s": 3.334332533972822
+      },
+      {
+        "frame": 113,
+        "nominal_time_s": 3.7677957633892887
+      },
+      {
+        "frame": 125,
+        "nominal_time_s": 4.167915667466027
+      },
+      {
+        "frame": 138,
+        "nominal_time_s": 4.601378896882494
+      }
+    ]
+  },
+  {
+    "source_filename": "execution\\U'_OH_Version.mp4",
+    "frame_sheet": "media/turns_and_executions/clip_07.jpg",
+    "frames": 167,
+    "nominal_fps": 29.987131271011442,
+    "approximate_duration_s": 5.569055555555556,
+    "samples": [
+      {
+        "frame": 0,
+        "nominal_time_s": 0.0
+      },
+      {
+        "frame": 15,
+        "nominal_time_s": 0.5002145708582835
+      },
+      {
+        "frame": 30,
+        "nominal_time_s": 1.000429141716567
+      },
+      {
+        "frame": 45,
+        "nominal_time_s": 1.5006437125748502
+      },
+      {
+        "frame": 60,
+        "nominal_time_s": 2.000858283433134
+      },
+      {
+        "frame": 75,
+        "nominal_time_s": 2.5010728542914173
+      },
+      {
+        "frame": 91,
+        "nominal_time_s": 3.0346350632069194
+      },
+      {
+        "frame": 106,
+        "nominal_time_s": 3.534849634065203
+      },
+      {
+        "frame": 121,
+        "nominal_time_s": 4.035064204923486
+      },
+      {
+        "frame": 136,
+        "nominal_time_s": 4.535278775781769
+      },
+      {
+        "frame": 151,
+        "nominal_time_s": 5.035493346640053
+      },
+      {
+        "frame": 166,
+        "nominal_time_s": 5.535707917498336
+      }
+    ]
+  },
+  {
+    "source_filename": "execution\\U2 double flick.mp4",
+    "frame_sheet": "media/turns_and_executions/clip_08.jpg",
+    "frames": 181,
+    "nominal_fps": 29.978192659115376,
+    "approximate_duration_s": 6.037722222222222,
+    "samples": [
+      {
+        "frame": 0,
+        "nominal_time_s": 0.0
+      },
+      {
+        "frame": 16,
+        "nominal_time_s": 0.5337213014119092
+      },
+      {
+        "frame": 33,
+        "nominal_time_s": 1.1008001841620627
+      },
+      {
+        "frame": 49,
+        "nominal_time_s": 1.6345214855739718
+      },
+      {
+        "frame": 65,
+        "nominal_time_s": 2.168242786985881
+      },
+      {
+        "frame": 82,
+        "nominal_time_s": 2.7353216697360345
+      },
+      {
+        "frame": 98,
+        "nominal_time_s": 3.2690429711479436
+      },
+      {
+        "frame": 115,
+        "nominal_time_s": 3.836121853898097
+      },
+      {
+        "frame": 131,
+        "nominal_time_s": 4.369843155310006
+      },
+      {
+        "frame": 147,
+        "nominal_time_s": 4.903564456721916
+      },
+      {
+        "frame": 164,
+        "nominal_time_s": 5.470643339472069
+      }
+    ]
+  },
+  {
+    "source_filename": "execution\\UN.mp4",
+    "frame_sheet": "media/turns_and_executions/clip_09.jpg",
+    "frames": 220,
+    "nominal_fps": 29.960959961262596,
+    "approximate_duration_s": 7.342888888888889,
+    "samples": [
+      {
+        "frame": 0,
+        "nominal_time_s": 0.0
+      },
+      {
+        "frame": 20,
+        "nominal_time_s": 0.6675353535353535
+      },
+      {
+        "frame": 40,
+        "nominal_time_s": 1.335070707070707
+      },
+      {
+        "frame": 60,
+        "nominal_time_s": 2.0026060606060607
+      },
+      {
+        "frame": 80,
+        "nominal_time_s": 2.670141414141414
+      },
+      {
+        "frame": 100,
+        "nominal_time_s": 3.337676767676768
+      },
+      {
+        "frame": 119,
+        "nominal_time_s": 3.971835353535354
+      },
+      {
+        "frame": 139,
+        "nominal_time_s": 4.639370707070707
+      },
+      {
+        "frame": 159,
+        "nominal_time_s": 5.306906060606061
+      },
+      {
+        "frame": 179,
+        "nominal_time_s": 5.974441414141414
+      },
+      {
+        "frame": 199,
+        "nominal_time_s": 6.641976767676768
+      }
+    ]
+  },
+  {
+    "source_filename": "4 Finger U move.mp4",
+    "frame_sheet": "media/turns_and_executions/u4.jpg",
+    "frames": 237,
+    "fps": 29.99451577067484,
+    "sampled_frames": [
+      0,
+      12,
+      25,
+      37,
+      50,
+      62,
+      75,
+      87,
+      99,
+      112,
+      124,
+      137,
+      149,
+      161,
+      174,
+      186,
+      199,
+      211,
+      224,
+      236
+    ]
+  },
+  {
+    "source_filename": "Right hand index 4 finger D'.mp4",
+    "frame_sheet": "media/turns_and_executions/d4.jpg",
+    "frames": 156,
+    "fps": 29.993719263914823,
+    "sampled_frames": [
+      0,
+      8,
+      16,
+      24,
+      33,
+      41,
+      49,
+      57,
+      65,
+      73,
+      82,
+      90,
+      98,
+      106,
+      114,
+      122,
+      131,
+      139,
+      147,
+      155
+    ]
+  },
+  {
+    "source_filename": "Special R2 in Ga Perm.mp4",
+    "frame_sheet": "media/turns_and_executions/r2_release.jpg",
+    "frames": 247,
+    "fps": 29.993604602527395,
+    "sampled_frames": [
+      0,
+      13,
+      26,
+      39,
+      52,
+      65,
+      78,
+      91,
+      104,
+      117,
+      129,
+      142,
+      155,
+      168,
+      181,
+      194,
+      207,
+      220,
+      233,
+      246
+    ]
+  }
+]

@@ -1,0 +1,402 @@
+{
+  "cases": [
+    {
+      "case": "PLL Gd",
+      "attempts": 4,
+      "mean_s": 1.52475,
+      "sd_s": 0.32068091617681277,
+      "predictions": {
+        "rate_reference": 1.7004850462340277,
+        "count_reference": 1.5700215960178725,
+        "huber_action_hybrid": 1.8009695771950138,
+        "historical_path_median": 1.815
+      },
+      "trial_mae_s": {
+        "rate_reference": 0.2939925231170139,
+        "count_reference": 0.22876079800893628,
+        "huber_action_hybrid": 0.34423478859750695,
+        "historical_path_median": 0.35125
+      },
+      "mean_mae_s": {
+        "rate_reference": 0.1757350462340277,
+        "count_reference": 0.04527159601787245,
+        "huber_action_hybrid": 0.2762195771950138,
+        "historical_path_median": 0.2902499999999999
+      }
+    },
+    {
+      "case": "PLL Ga",
+      "attempts": 4,
+      "mean_s": 1.48075,
+      "sd_s": 0.08381477594473825,
+      "predictions": {
+        "rate_reference": 1.767824490385144,
+        "count_reference": 1.5700215960178725,
+        "huber_action_hybrid": 1.6864648487915401,
+        "historical_path_median": 1.677
+      },
+      "trial_mae_s": {
+        "rate_reference": 0.2870744903851441,
+        "count_reference": 0.09026079800893627,
+        "huber_action_hybrid": 0.20571484879154012,
+        "historical_path_median": 0.19625000000000004
+      },
+      "mean_mae_s": {
+        "rate_reference": 0.2870744903851441,
+        "count_reference": 0.08927159601787249,
+        "huber_action_hybrid": 0.20571484879154012,
+        "historical_path_median": 0.19625000000000004
+      }
+    },
+    {
+      "case": "PLL F",
+      "attempts": 4,
+      "mean_s": 1.5715000000000001,
+      "sd_s": 0.09665919511355348,
+      "predictions": {
+        "rate_reference": 1.5554447950878982,
+        "count_reference": 1.8245504588823698,
+        "huber_action_hybrid": 1.4670329000190803,
+        "historical_path_median": 1.4675
+      },
+      "trial_mae_s": {
+        "rate_reference": 0.07100000000000001,
+        "count_reference": 0.2530504588823697,
+        "huber_action_hybrid": 0.1124835499904599,
+        "historical_path_median": 0.11225000000000002
+      },
+      "mean_mae_s": {
+        "rate_reference": 0.016055204912101884,
+        "count_reference": 0.25305045888236966,
+        "huber_action_hybrid": 0.10446709998091985,
+        "historical_path_median": 0.10400000000000009
+      }
+    },
+    {
+      "case": "PLL Rb",
+      "attempts": 4,
+      "mean_s": 1.2189999999999999,
+      "sd_s": 0.24616390203818814,
+      "predictions": {
+        "rate_reference": 1.2499632912661822,
+        "count_reference": 1.400335687441541,
+        "huber_action_hybrid": 1.2293691780773435,
+        "historical_path_median": 1.23
+      },
+      "trial_mae_s": {
+        "rate_reference": 0.19698164563309112,
+        "count_reference": 0.27216784372077046,
+        "huber_action_hybrid": 0.18668458903867174,
+        "historical_path_median": 0.187
+      },
+      "mean_mae_s": {
+        "rate_reference": 0.030963291266182358,
+        "count_reference": 0.18133568744154105,
+        "huber_action_hybrid": 0.01036917807734361,
+        "historical_path_median": 0.01100000000000012
+      }
+    },
+    {
+      "case": "PLL H",
+      "attempts": 4,
+      "mean_s": 0.7474999999999999,
+      "sd_s": 0.050401719547385856,
+      "predictions": {
+        "rate_reference": 0.9016143608968767,
+        "count_reference": 0.8912779617125464,
+        "huber_action_hybrid": 0.8656904797386419,
+        "historical_path_median": 0.868
+      },
+      "trial_mae_s": {
+        "rate_reference": 0.15411436089687675,
+        "count_reference": 0.14377796171254636,
+        "huber_action_hybrid": 0.11819047973864188,
+        "historical_path_median": 0.1205
+      },
+      "mean_mae_s": {
+        "rate_reference": 0.1541143608968768,
+        "count_reference": 0.14377796171254642,
+        "huber_action_hybrid": 0.11819047973864194,
+        "historical_path_median": 0.12050000000000005
+      }
+    },
+    {
+      "case": "PLL Ub",
+      "attempts": 4,
+      "mean_s": 0.7087499999999999,
+      "sd_s": 0.07879244887678008,
+      "predictions": {
+        "rate_reference": 0.904573445898739,
+        "count_reference": 0.8912779617125464,
+        "huber_action_hybrid": 0.8387619520695182,
+        "historical_path_median": 0.8089999999999999
+      },
+      "trial_mae_s": {
+        "rate_reference": 0.195823445898739,
+        "count_reference": 0.18252796171254637,
+        "huber_action_hybrid": 0.1300119520695182,
+        "historical_path_median": 0.10024999999999995
+      },
+      "mean_mae_s": {
+        "rate_reference": 0.19582344589873912,
+        "count_reference": 0.18252796171254648,
+        "huber_action_hybrid": 0.13001195206951832,
+        "historical_path_median": 0.10025000000000006
+      }
+    }
+  ],
+  "metrics": {
+    "rate_reference": {
+      "trial_mae_s": 0.1998310776551441,
+      "mean_mae_s": 0.14329430659884532,
+      "comparisons": {
+        "rate_reference": {
+          "trial_mae_s": {
+            "reduction_percent": 0.0,
+            "conditional_case95_percent": [
+              0.0,
+              0.0
+            ],
+            "case_wins": 0
+          },
+          "mean_mae_s": {
+            "reduction_percent": 0.0,
+            "conditional_case95_percent": [
+              0.0,
+              0.0
+            ],
+            "case_wins": 0
+          }
+        },
+        "count_reference": {
+          "trial_mae_s": {
+            "reduction_percent": -2.429690777507987,
+            "conditional_case95_percent": [
+              -64.53024703066342,
+              38.29324408718715
+            ],
+            "case_wins": 2
+          },
+          "mean_mae_s": {
+            "reduction_percent": 3.9620224655767644,
+            "conditional_case95_percent": [
+              -114.23805178088911,
+              63.833407000696326
+            ],
+            "case_wins": 2
+          }
+        },
+        "historical_path_median": {
+          "trial_mae_s": {
+            "reduction_percent": -12.317233342469724,
+            "conditional_case95_percent": [
+              -46.85195373853692,
+              11.756461468847574
+            ],
+            "case_wins": 2
+          },
+          "mean_mae_s": {
+            "reduction_percent": -4.562583106484852,
+            "conditional_case95_percent": [
+              -62.21712245544231,
+              38.189331037465415
+            ],
+            "case_wins": 2
+          }
+        }
+      }
+    },
+    "count_reference": {
+      "trial_mae_s": 0.19509097034101755,
+      "mean_mae_s": 0.14920587696412477,
+      "comparisons": {
+        "rate_reference": {
+          "trial_mae_s": {
+            "reduction_percent": 2.3720571243211364,
+            "conditional_case95_percent": [
+              -62.056809697292636,
+              39.220902050087446
+            ],
+            "case_wins": 4
+          },
+          "mean_mae_s": {
+            "reduction_percent": -4.125474700002552,
+            "conditional_case95_percent": [
+              -176.49825904786044,
+              53.32295118970065
+            ],
+            "case_wins": 4
+          }
+        },
+        "count_reference": {
+          "trial_mae_s": {
+            "reduction_percent": 0.0,
+            "conditional_case95_percent": [
+              0.0,
+              0.0
+            ],
+            "case_wins": 0
+          },
+          "mean_mae_s": {
+            "reduction_percent": 0.0,
+            "conditional_case95_percent": [
+              0.0,
+              0.0
+            ],
+            "case_wins": 0
+          }
+        },
+        "historical_path_median": {
+          "trial_mae_s": {
+            "reduction_percent": -9.653004407129284,
+            "conditional_case95_percent": [
+              -73.98089558782657,
+              28.557395542298526
+            ],
+            "case_wins": 2
+          },
+          "mean_mae_s": {
+            "reduction_percent": -8.87628601821202,
+            "conditional_case95_percent": [
+              -165.66661330466573,
+              54.148080107365516
+            ],
+            "case_wins": 2
+          }
+        }
+      }
+    },
+    "huber_action_hybrid": {
+      "trial_mae_s": 0.18288670137105648,
+      "mean_mae_s": 0.14082885597549627,
+      "comparisons": {
+        "rate_reference": {
+          "trial_mae_s": {
+            "reduction_percent": 8.479349900383948,
+            "conditional_case95_percent": [
+              -12.693839452499379,
+              25.861136666105043
+            ],
+            "case_wins": 4
+          },
+          "mean_mae_s": {
+            "reduction_percent": 1.7205503008930534,
+            "conditional_case95_percent": [
+              -57.614804039845424,
+              32.057120463196235
+            ],
+            "case_wins": 4
+          }
+        },
+        "count_reference": {
+          "trial_mae_s": {
+            "reduction_percent": 6.255681105398214,
+            "conditional_case95_percent": [
+              -41.268157377207885,
+              38.63223924140256
+            ],
+            "case_wins": 4
+          },
+          "mean_mae_s": {
+            "reduction_percent": 5.614404177016885,
+            "conditional_case95_percent": [
+              -115.62317403582551,
+              60.31080713859891
+            ],
+            "case_wins": 4
+          }
+        },
+        "historical_path_median": {
+          "trial_mae_s": {
+            "reduction_percent": -2.7934621289310346,
+            "conditional_case95_percent": [
+              -11.894297142853505,
+              1.437895140639922
+            ],
+            "case_wins": 3
+          },
+          "mean_mae_s": {
+            "reduction_percent": -2.7635312682246838,
+            "conditional_case95_percent": [
+              -14.864587191232514,
+              3.6405722810229246
+            ],
+            "case_wins": 3
+          }
+        }
+      }
+    },
+    "historical_path_median": {
+      "trial_mae_s": 0.1779166666666667,
+      "mean_mae_s": 0.1370416666666667,
+      "comparisons": {
+        "rate_reference": {
+          "trial_mae_s": {
+            "reduction_percent": 10.966467901602329,
+            "conditional_case95_percent": [
+              -13.322756572286544,
+              31.9042086576217
+            ],
+            "case_wins": 4
+          },
+          "mean_mae_s": {
+            "reduction_percent": 4.3634950198565665,
+            "conditional_case95_percent": [
+              -61.784367777370555,
+              38.354201230863595
+            ],
+            "case_wins": 4
+          }
+        },
+        "count_reference": {
+          "trial_mae_s": {
+            "reduction_percent": 8.80322838331795,
+            "conditional_case95_percent": [
+              -39.972500665490585,
+              42.52242485467641
+            ],
+            "case_wins": 4
+          },
+          "mean_mae_s": {
+            "reduction_percent": 8.15263483246229,
+            "conditional_case95_percent": [
+              -118.09337588078552,
+              62.35883811063595
+            ],
+            "case_wins": 4
+          }
+        },
+        "historical_path_median": {
+          "trial_mae_s": {
+            "reduction_percent": 0.0,
+            "conditional_case95_percent": [
+              0.0,
+              0.0
+            ],
+            "case_wins": 0
+          },
+          "mean_mae_s": {
+            "reduction_percent": 0.0,
+            "conditional_case95_percent": [
+              0.0,
+              0.0
+            ],
+            "case_wins": 0
+          }
+        }
+      }
+    }
+  },
+  "confirmation": {
+    "workbook_sha256": "1abda7b4c4915e33586143d4c5804c06319cebf508da7a5e98d6539155da2efb",
+    "completion_confirmed": true,
+    "adherence": "Use recorded cells; successful completion alone does not independently confirm every fingertrick.",
+    "metadata": {
+      "Actual date and start time": null,
+      "Timer/device and resolution if known": null,
+      "Cube": null,
+      "Different day from last collection?": null,
+      "Any changes or unusual breaks": null
+    }
+  }
+}

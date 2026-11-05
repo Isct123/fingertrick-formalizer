@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "confirmed": [
+    {
+      "id": "U4_BOTTOM_RIGHT",
+      "logical_turn": "U",
+      "hand": "RIGHT",
+      "fingers": [
+        "INDEX",
+        "MIDDLE",
+        "RING",
+        "LITTLE"
+      ],
+      "thumb_before": "BOTTOM",
+      "endpoint_poses": [
+        "U4_READY",
+        "U4_FINISHED"
+      ],
+      "thumb_after": "BOTTOM"
+    },
+    {
+      "id": "R2_THUMB_RELEASE",
+      "logical_turn": "R2",
+      "hand": "RIGHT",
+      "stages": [],
+      "finger_for_second_quarter": null,
+      "thumb_after": "RELEASED",
+      "endpoint_poses": [
+        "R2_RELEASE_READY",
+        "R2_RELEASE_FINISHED"
+      ],
+      "thumb_before": "FRONT"
+    },
+    {
+      "id": "D4_PRIME_RIGHT",
+      "logical_turn": "D'",
+      "hand": "RIGHT",
+      "fingers": [
+        "INDEX",
+        "MIDDLE",
+        "RING",
+        "LITTLE"
+      ],
+      "thumb_before": "TOP",
+      "endpoint_poses": [
+        "D4_READY",
+        "D4_FINISHED"
+      ],
+      "thumb_after": "TOP"
+    },
+    {
+      "id": "M2_RING_MIDDLE",
+      "logical_turn": "M2",
+      "finger_order": [
+        "RING",
+        "MIDDLE"
+      ],
+      "hand": null,
+      "endpoint_poses": null
+    },
+    {
+      "id": "UTM",
+      "logical_turn": "U",
+      "fingers": [
+        "THUMB",
+        "MIDDLE"
+      ],
+      "hand": "RIGHT",
+      "endpoint_poses": [
+        "UTM_READY",
+        "UTM_FINISHED"
+      ],
+      "thumb_before": "FRONT",
+      "thumb_after": "FRONT",
+      "enable_search": false
+    }
+  ],
+  "enable_graph_edges": false,
+  "observed_fragment": "data/observed_motion_graph.json"
+}

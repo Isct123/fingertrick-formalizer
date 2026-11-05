@@ -1,0 +1,24 @@
+{
+  "training_case_names": [],
+  "validation_case_names": [],
+  "protocol": "initial-regrip-included-opening-x-setup-v2",
+  "measurement_method": "Timer",
+  "source_sha256": "db845077127ea17f98b8338deb2335b7875896950ae2d7069adfeedde0f5739e",
+  "training_attempts": 480,
+  "training_cases": 60,
+  "model": "logical_move_count_baseline",
+  "coefficients_s": [
+    0.4157218869356575,
+    0.07260090833414944
+  ],
+  "ridge": 100.0,
+  "inner_cv_mae_s": {
+    "0.01": 0.17991443971731486,
+    "0.1": 0.17990827750930613,
+    "1.0": 0.1798468149606969,
+    "10.0": 0.17924773310237688,
+    "100.0": 0.17873485655481167
+  },
+  "frozen": true,
+  "freeze_sha256": "b765e1c6a8b8a308be723096954cecf0a32f830fb3b1c31264f7fa5981375ee1"
+}

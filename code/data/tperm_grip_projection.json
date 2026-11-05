@@ -1,0 +1,217 @@
+{
+  "full_physical_path_validated": false,
+  "rows": [
+    {
+      "step": 1,
+      "family": "R",
+      "hand": "RIGHT",
+      "logical_move": "R",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 2,
+      "family": "FP",
+      "hand": "RIGHT",
+      "logical_move": "U",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 3,
+      "family": "Rp",
+      "hand": "RIGHT",
+      "logical_move": "R'",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 4,
+      "family": "UN",
+      "hand": "LEFT",
+      "logical_move": "U'",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 5,
+      "family": "Rp",
+      "hand": "RIGHT",
+      "logical_move": "R'",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "BOTTOM"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 6,
+      "family": "UN",
+      "hand": "RIGHT",
+      "logical_move": "F",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "BOTTOM"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "BOTTOM"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 7,
+      "family": "R2",
+      "hand": "RIGHT",
+      "logical_move": "R2",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "BOTTOM"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "continuous_atomic_wrist_half_turn": true
+    },
+    {
+      "step": 8,
+      "family": "UN",
+      "hand": "LEFT",
+      "logical_move": "U'",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 9,
+      "family": "Rp",
+      "hand": "RIGHT",
+      "logical_move": "R'",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 10,
+      "family": "UN",
+      "hand": "LEFT",
+      "logical_move": "U'",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 11,
+      "family": "R",
+      "hand": "RIGHT",
+      "logical_move": "R",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 12,
+      "family": "FP",
+      "hand": "RIGHT",
+      "logical_move": "U",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 13,
+      "family": "Rp",
+      "hand": "RIGHT",
+      "logical_move": "R'",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "TOP"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    },
+    {
+      "step": 14,
+      "family": "FTp",
+      "hand": "RIGHT",
+      "logical_move": "F'",
+      "grips_before": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "grips_after": {
+        "left": "FRONT",
+        "right": "FRONT"
+      },
+      "continuous_atomic_wrist_half_turn": false
+    }
+  ],
+  "logical_algorithm": "R U R' U' R' F R2 U' R' U' R U R' F'",
+  "required_regrip_edges": 0
+}

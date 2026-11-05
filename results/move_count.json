@@ -1,0 +1,23 @@
+{
+  "source": "outputs/single_record_final_20261105/research_materials/data/combined_completed_timings.csv",
+  "source_sha256": "8ea60451100f51184ed9557d0e97937ad25a57951983383215547de711816040",
+  "completed_physical": {
+    "attempts": 1802,
+    "notated_moves_excluding_rotations": 23196,
+    "whole_cube_rotations": 32,
+    "quarter_turn_equivalents": 24428
+  },
+  "completed_controls_without_physical_path": {
+    "attempts": 20,
+    "notated_moves_excluding_rotations": 220,
+    "whole_cube_rotations": 0,
+    "quarter_turn_equivalents": 230
+  },
+  "all_completed": {
+    "attempts": 1822,
+    "notated_moves_excluding_rotations": 23416,
+    "whole_cube_rotations": 32,
+    "quarter_turn_equivalents": 24658
+  },
+  "failed_attempts": 8
+}

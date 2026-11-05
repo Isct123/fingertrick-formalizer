@@ -1,0 +1,1774 @@
+{
+  "source_sha256": "d51fb0824ba53213e79284dc529c16b28129cf991b69624d65b31578a109d33e",
+  "plans": {
+    "Y": {
+      "row_variances_s2": [
+        0.10939228333333337,
+        0.07509146666666663,
+        0.060232283333333324
+      ],
+      "episodes": {
+        "1": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "random_support": {
+              "counts": [
+                0,
+                2,
+                1,
+                2,
+                0,
+                1
+              ],
+              "predicted_worst_variance": 0.1728694833333333
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0674966668366186,
+              "uncapped_minimum": 0.0674966668366186,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.06367872251092449
+            },
+            "variance_proportional": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "random_support": {
+              "counts": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.114928425
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0479186801900747,
+              "uncapped_minimum": 0.0479186801900747,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                3,
+                2,
+                2,
+                1,
+                2
+              ],
+              "predicted_worst_variance": 0.03264831809059778
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.0337483334183093
+            },
+            "variance_proportional": {
+              "counts": [
+                3,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.03719219930661342
+            },
+            "random_support": {
+              "counts": [
+                4,
+                4,
+                2,
+                0,
+                0,
+                2
+              ],
+              "predicted_worst_variance": 0.09224187499999997
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.03264831809059778,
+              "uncapped_minimum": 0.03264831809059778,
+              "cap_binds": false
+            }
+          }
+        },
+        "2": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "random_support": {
+              "counts": [
+                0,
+                2,
+                1,
+                2,
+                1,
+                0
+              ],
+              "predicted_worst_variance": 0.1728694833333332
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0674966668366186,
+              "uncapped_minimum": 0.0674966668366186,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2
+              ],
+              "predicted_worst_variance": 0.0648931355650691
+            },
+            "variance_proportional": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "random_support": {
+              "counts": [
+                0,
+                2,
+                2,
+                3,
+                0,
+                1
+              ],
+              "predicted_worst_variance": 0.12280850555555554
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0479186801900747,
+              "uncapped_minimum": 0.0479186801900747,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                3,
+                2,
+                2,
+                1,
+                2
+              ],
+              "predicted_worst_variance": 0.03264831809059778
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.0337483334183093
+            },
+            "variance_proportional": {
+              "counts": [
+                3,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.03719219930661342
+            },
+            "random_support": {
+              "counts": [
+                4,
+                4,
+                2,
+                0,
+                0,
+                2
+              ],
+              "predicted_worst_variance": 0.09224187499999997
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.03264831809059778,
+              "uncapped_minimum": 0.03264831809059778,
+              "cap_binds": false
+            }
+          }
+        },
+        "3": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "random_support": {
+              "counts": [
+                2,
+                2,
+                1,
+                0,
+                1,
+                0
+              ],
+              "predicted_worst_variance": 0.18448375
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0674966668366186,
+              "uncapped_minimum": 0.0674966668366186,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "predicted_worst_variance": 0.0648931355650691
+            },
+            "variance_proportional": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "random_support": {
+              "counts": [
+                2,
+                0,
+                2,
+                3,
+                1,
+                0
+              ],
+              "predicted_worst_variance": 0.12280850555555553
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0479186801900747,
+              "uncapped_minimum": 0.0479186801900747,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                3,
+                2,
+                2,
+                1,
+                2
+              ],
+              "predicted_worst_variance": 0.03264831809059778
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.0337483334183093
+            },
+            "variance_proportional": {
+              "counts": [
+                3,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.03719219930661342
+            },
+            "random_support": {
+              "counts": [
+                0,
+                3,
+                2,
+                0,
+                3,
+                4
+              ],
+              "predicted_worst_variance": 0.07268123194444441
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.03264831809059778,
+              "uncapped_minimum": 0.03264831809059778,
+              "cap_binds": false
+            }
+          }
+        },
+        "4": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "random_support": {
+              "counts": [
+                2,
+                2,
+                0,
+                1,
+                0,
+                1
+              ],
+              "predicted_worst_variance": 0.18448375000000006
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0674966668366186,
+              "uncapped_minimum": 0.0674966668366186,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                2
+              ],
+              "predicted_worst_variance": 0.0648931355650691
+            },
+            "variance_proportional": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "random_support": {
+              "counts": [
+                2,
+                2,
+                2,
+                0,
+                2,
+                0
+              ],
+              "predicted_worst_variance": 0.14693801666666667
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0479186801900747,
+              "uncapped_minimum": 0.0479186801900747,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                3,
+                2,
+                2,
+                1,
+                2
+              ],
+              "predicted_worst_variance": 0.03264831809059778
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.0337483334183093
+            },
+            "variance_proportional": {
+              "counts": [
+                3,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.03719219930661342
+            },
+            "random_support": {
+              "counts": [
+                0,
+                3,
+                0,
+                2,
+                3,
+                4
+              ],
+              "predicted_worst_variance": 0.07268123194444442
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.03264831809059778,
+              "uncapped_minimum": 0.03264831809059778,
+              "cap_binds": false
+            }
+          }
+        },
+        "5": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "random_support": {
+              "counts": [
+                0,
+                2,
+                1,
+                0,
+                2,
+                1
+              ],
+              "predicted_worst_variance": 0.1654398916666666
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0674966668366186,
+              "uncapped_minimum": 0.0674966668366186,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                1
+              ],
+              "predicted_worst_variance": 0.0648931355650691
+            },
+            "variance_proportional": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "random_support": {
+              "counts": [
+                0,
+                2,
+                0,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.11492842499999996
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0479186801900747,
+              "uncapped_minimum": 0.0479186801900747,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                3,
+                2,
+                2,
+                1,
+                2
+              ],
+              "predicted_worst_variance": 0.03264831809059778
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.0337483334183093
+            },
+            "variance_proportional": {
+              "counts": [
+                3,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.03719219930661342
+            },
+            "random_support": {
+              "counts": [
+                4,
+                4,
+                0,
+                2,
+                2,
+                0
+              ],
+              "predicted_worst_variance": 0.09224187500000003
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.03264831809059778,
+              "uncapped_minimum": 0.03264831809059778,
+              "cap_binds": false
+            }
+          }
+        },
+        "6": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0674966668366186
+            },
+            "random_support": {
+              "counts": [
+                2,
+                2,
+                0,
+                1,
+                0,
+                1
+              ],
+              "predicted_worst_variance": 0.18448375000000006
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0674966668366186,
+              "uncapped_minimum": 0.0674966668366186,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                2,
+                2,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.06424213612276464
+            },
+            "variance_proportional": {
+              "counts": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.0479186801900747
+            },
+            "random_support": {
+              "counts": [
+                2,
+                2,
+                2,
+                0,
+                0,
+                2
+              ],
+              "predicted_worst_variance": 0.14693801666666673
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.0479186801900747,
+              "uncapped_minimum": 0.0479186801900747,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                3,
+                2,
+                2,
+                1,
+                2
+              ],
+              "predicted_worst_variance": 0.03264831809059778
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.0337483334183093
+            },
+            "variance_proportional": {
+              "counts": [
+                3,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.03719219930661342
+            },
+            "random_support": {
+              "counts": [
+                0,
+                4,
+                3,
+                3,
+                0,
+                2
+              ],
+              "predicted_worst_variance": 0.08017711944444439
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.03264831809059778,
+              "uncapped_minimum": 0.03264831809059778,
+              "cap_binds": false
+            }
+          }
+        }
+      }
+    },
+    "T": {
+      "row_variances_s2": [
+        0.01214228333333333,
+        0.048377333333333335
+      ],
+      "episodes": {
+        "1": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "random_support": {
+              "counts": [
+                1,
+                2,
+                3,
+                0
+              ],
+              "predicted_worst_variance": 0.03433920277777777
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.016136419270010218,
+              "uncapped_minimum": 0.016136419270010218,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.014520865921435389
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "random_support": {
+              "counts": [
+                0,
+                2,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.03832269722222223
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.011526227990543531,
+              "uncapped_minimum": 0.011526227990543531,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                4,
+                4
+              ],
+              "predicted_worst_variance": 0.008068209635005109
+            },
+            "uniform_all": {
+              "counts": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.009680577280956927
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                5,
+                5
+              ],
+              "predicted_worst_variance": 0.008763496690646884
+            },
+            "random_support": {
+              "counts": [
+                0,
+                2,
+                5,
+                5
+              ],
+              "predicted_worst_variance": 0.02542207499999999
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.008068209635005109,
+              "uncapped_minimum": 0.008068209635005109,
+              "cap_binds": false
+            }
+          }
+        },
+        "2": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                2,
+                1,
+                2
+              ],
+              "predicted_worst_variance": 0.02259653134604993
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "random_support": {
+              "counts": [
+                1,
+                2,
+                0,
+                3
+              ],
+              "predicted_worst_variance": 0.03433920277777777
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.016136419270010218,
+              "uncapped_minimum": 0.016136419270010218,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.014520865921435389
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "random_support": {
+              "counts": [
+                2,
+                2,
+                0,
+                4
+              ],
+              "predicted_worst_variance": 0.02423661666666665
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.011526227990543531,
+              "uncapped_minimum": 0.011526227990543531,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                4,
+                4
+              ],
+              "predicted_worst_variance": 0.008068209635005109
+            },
+            "uniform_all": {
+              "counts": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.009680577280956927
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                5,
+                5
+              ],
+              "predicted_worst_variance": 0.008763496690646884
+            },
+            "random_support": {
+              "counts": [
+                0,
+                2,
+                5,
+                5
+              ],
+              "predicted_worst_variance": 0.02542207499999999
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.008068209635005109,
+              "uncapped_minimum": 0.008068209635005109,
+              "cap_binds": false
+            }
+          }
+        },
+        "3": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "uniform_all": {
+              "counts": [
+                1,
+                2,
+                2,
+                1
+              ],
+              "predicted_worst_variance": 0.02259653134604993
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "random_support": {
+              "counts": [
+                1,
+                0,
+                2,
+                3
+              ],
+              "predicted_worst_variance": 0.052456727777777774
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.016136419270010218,
+              "uncapped_minimum": 0.016136419270010218,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.014520865921435389
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "random_support": {
+              "counts": [
+                2,
+                0,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.038322697222222216
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.011526227990543531,
+              "uncapped_minimum": 0.011526227990543531,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                4,
+                4
+              ],
+              "predicted_worst_variance": 0.008068209635005109
+            },
+            "uniform_all": {
+              "counts": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.009680577280956927
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                5,
+                5
+              ],
+              "predicted_worst_variance": 0.008763496690646884
+            },
+            "random_support": {
+              "counts": [
+                3,
+                3,
+                6,
+                0
+              ],
+              "predicted_worst_variance": 0.01615774444444444
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.008068209635005109,
+              "uncapped_minimum": 0.008068209635005109,
+              "cap_binds": false
+            }
+          }
+        },
+        "4": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                1,
+                1,
+                2
+              ],
+              "predicted_worst_variance": 0.02259653134604993
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "random_support": {
+              "counts": [
+                1,
+                2,
+                3,
+                0
+              ],
+              "predicted_worst_variance": 0.03433920277777777
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.016136419270010218,
+              "uncapped_minimum": 0.016136419270010218,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.014520865921435389
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "random_support": {
+              "counts": [
+                2,
+                2,
+                4,
+                0
+              ],
+              "predicted_worst_variance": 0.024236616666666662
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.011526227990543531,
+              "uncapped_minimum": 0.011526227990543531,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                4,
+                4
+              ],
+              "predicted_worst_variance": 0.008068209635005109
+            },
+            "uniform_all": {
+              "counts": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.009680577280956927
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                5,
+                5
+              ],
+              "predicted_worst_variance": 0.008763496690646884
+            },
+            "random_support": {
+              "counts": [
+                3,
+                3,
+                6,
+                0
+              ],
+              "predicted_worst_variance": 0.01615774444444444
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.008068209635005109,
+              "uncapped_minimum": 0.008068209635005109,
+              "cap_binds": false
+            }
+          }
+        },
+        "5": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                1,
+                2,
+                1
+              ],
+              "predicted_worst_variance": 0.02259653134604993
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "random_support": {
+              "counts": [
+                1,
+                0,
+                2,
+                3
+              ],
+              "predicted_worst_variance": 0.052456727777777774
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.016136419270010218,
+              "uncapped_minimum": 0.016136419270010218,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.014520865921435389
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "random_support": {
+              "counts": [
+                2,
+                0,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.038322697222222216
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.011526227990543531,
+              "uncapped_minimum": 0.011526227990543531,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                4,
+                4
+              ],
+              "predicted_worst_variance": 0.008068209635005109
+            },
+            "uniform_all": {
+              "counts": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.009680577280956927
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                5,
+                5
+              ],
+              "predicted_worst_variance": 0.008763496690646884
+            },
+            "random_support": {
+              "counts": [
+                0,
+                2,
+                5,
+                5
+              ],
+              "predicted_worst_variance": 0.02542207499999999
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.008068209635005109,
+              "uncapped_minimum": 0.008068209635005109,
+              "cap_binds": false
+            }
+          }
+        },
+        "6": {
+          "6": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                1,
+                1
+              ],
+              "predicted_worst_variance": 0.026885763730654433
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.016136419270010218
+            },
+            "random_support": {
+              "counts": [
+                1,
+                2,
+                3,
+                0
+              ],
+              "predicted_worst_variance": 0.03433920277777777
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.016136419270010218,
+              "uncapped_minimum": 0.016136419270010218,
+              "cap_binds": false
+            }
+          },
+          "8": {
+            "pilot_optimal": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "uniform_all": {
+              "counts": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "predicted_worst_variance": 0.014520865921435389
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.011526227990543531
+            },
+            "random_support": {
+              "counts": [
+                2,
+                2,
+                0,
+                4
+              ],
+              "predicted_worst_variance": 0.02423661666666665
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.011526227990543531,
+              "uncapped_minimum": 0.011526227990543531,
+              "cap_binds": false
+            }
+          },
+          "12": {
+            "pilot_optimal": {
+              "counts": [
+                2,
+                2,
+                4,
+                4
+              ],
+              "predicted_worst_variance": 0.008068209635005109
+            },
+            "uniform_all": {
+              "counts": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "predicted_worst_variance": 0.009680577280956927
+            },
+            "variance_proportional": {
+              "counts": [
+                1,
+                1,
+                5,
+                5
+              ],
+              "predicted_worst_variance": 0.008763496690646884
+            },
+            "random_support": {
+              "counts": [
+                3,
+                3,
+                6,
+                0
+              ],
+              "predicted_worst_variance": 0.01615774444444444
+            },
+            "integer_optimality_check": {
+              "cap_per_cell": 6,
+              "capped_minimum": 0.008068209635005109,
+              "uncapped_minimum": 0.008068209635005109,
+              "cap_binds": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

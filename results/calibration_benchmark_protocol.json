@@ -1,0 +1,23 @@
+{
+  "seed": 20261103,
+  "graphs": 30,
+  "budgets_per_cell": [
+    4,
+    8
+  ],
+  "trial_variance_ratios": [
+    1,
+    4,
+    16
+  ],
+  "departure_bounds_in_minimum_noise_sd": [
+    0,
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "designs": [],
+  "human_data_used": false,
+  "worldwide_priority_established": false
+}

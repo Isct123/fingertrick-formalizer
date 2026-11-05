@@ -1,0 +1,24 @@
+{
+  "total_recorded_attempts": 1830,
+  "earlier_recorded_attempts": 1242,
+  "earlier_completed_physical": 1214,
+  "earlier_completed_logical_controls": 20,
+  "earlier_failures": 8,
+  "new_active_timings": 588,
+  "new_archived_timings": 0,
+  "active_completed_physical_timings": 1802,
+  "new_active_breakdown": {
+    "Y pilot": 36,
+    "T pilot": 24,
+    "Jb pilot": 24,
+    "Y cal": 216,
+    "T cal": 144,
+    "Jb cal": 144
+  },
+  "completed_allocation_comparison_calibration_attempts": 360,
+  "completed_allocation_comparison_pilot_attempts": 60,
+  "historical_coverage_cases": 66,
+  "historical_coverage_paths": 88,
+  "workbook_sha256": "7de3e6bb54b8d75126d65884a86781607c67d876d0ba0cd90e47e47e35d30b43",
+  "completed_calibration_attempts_all_cases": 504
+}

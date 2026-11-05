@@ -1,0 +1,684 @@
+{
+  "OLL 1": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 2": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "8": {
+        "family": "FT",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 3": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 5": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "6": {
+        "family": "U4",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 6": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 7": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "4": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 8": {
+    "u2_hand": "RIGHT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 10": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "4": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 11": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "5": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 12": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": [],
+    "physical_algorithm": "Rw R2' U' R U' R' U2 R U' R r'"
+  },
+  "OLL 13": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "1": {
+        "family": "FT",
+        "hand": "RIGHT"
+      },
+      "6": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      }
+    },
+    "events": []
+  },
+  "OLL 15": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "9": {
+        "family": "U4",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 16": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 17": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "1": {
+        "family": "FT",
+        "hand": "RIGHT"
+      },
+      "3": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      }
+    },
+    "events": []
+  },
+  "OLL 18": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "4": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 20": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 21": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "4": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 22": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 23": {
+    "u2_hand": "RIGHT",
+    "steps": {
+      "6": {
+        "family": "DRp",
+        "hand": "LEFT"
+      }
+    },
+    "events": []
+  },
+  "OLL 25": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 26": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 27": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "4": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 28": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 30": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "7": {
+        "family": "MIDDLE",
+        "hand": "LEFT"
+      },
+      "1": {
+        "family": "FT",
+        "hand": "RIGHT"
+      },
+      "11": {
+        "family": "U2",
+        "hand": "RIGHT"
+      }
+    },
+    "events": [
+      {
+        "during_step": 5,
+        "hand": "RIGHT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "OLL 31": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "8": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      },
+      "4": {
+        "family": "U4",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 32": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "3": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      },
+      "8": {
+        "family": "FTp",
+        "hand": "LEFT"
+      }
+    },
+    "events": [
+      {
+        "before_step": 4,
+        "hand": "LEFT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "OLL 33": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 35": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 36": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "10": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      },
+      "12": {
+        "family": "FTp",
+        "hand": "LEFT"
+      }
+    },
+    "events": []
+  },
+  "OLL 37": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "1": {
+        "family": "FT",
+        "hand": "RIGHT"
+      },
+      "3": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      }
+    },
+    "events": []
+  },
+  "OLL 38": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "4": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      },
+      "8": {
+        "family": "MIDDLE",
+        "hand": "LEFT"
+      }
+    },
+    "events": []
+  },
+  "OLL 40": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "7": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      },
+      "8": {
+        "family": "U4",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 41": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "4": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      }
+    },
+    "events": [
+      {
+        "during_step": 6,
+        "hand": "RIGHT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "OLL 42": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 43": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "6": {
+        "family": "FTp",
+        "hand": "LEFT"
+      }
+    },
+    "events": []
+  },
+  "OLL 45": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": [
+      {
+        "during_step": 5,
+        "hand": "RIGHT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "OLL 46": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "7": {
+        "family": "UTM",
+        "hand": "RIGHT",
+        "grip_after": "FRONT"
+      }
+    },
+    "events": []
+  },
+  "OLL 47": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "6": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      },
+      "10": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      }
+    },
+    "events": []
+  },
+  "OLL 48": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 50": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "6": {
+        "family": "MIDDLE",
+        "hand": "LEFT"
+      },
+      "2": {
+        "family": "U4",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 51": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "1": {
+        "family": "FT",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 52": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "4": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "OLL 53": {
+    "u2_hand": "RIGHT",
+    "steps": {},
+    "events": []
+  },
+  "OLL 55": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "8": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      }
+    },
+    "events": []
+  },
+  "OLL 56": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "4": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      }
+    },
+    "events": []
+  },
+  "PLL Ab": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "3": {
+        "family": "D2_PINKY_RING",
+        "hand": "LEFT"
+      },
+      "7": {
+        "family": "D2_PINKY_RING",
+        "hand": "LEFT"
+      }
+    },
+    "events": [],
+    "physical_algorithm": "Lw' R' D2 R U R' D2 R U' R"
+  },
+  "PLL F": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "13": {
+        "family": "MIDDLE",
+        "hand": "LEFT"
+      },
+      "15": {
+        "family": "FP",
+        "hand": "RIGHT"
+      },
+      "17": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      },
+      "3": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      }
+    },
+    "events": [
+      {
+        "during_step": 7,
+        "hand": "RIGHT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "PLL Ga": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "9": {
+        "family": "R2_RELEASE",
+        "hand": "RIGHT",
+        "release": true
+      },
+      "2": {
+        "family": "UOHp",
+        "hand": "LEFT"
+      },
+      "11": {
+        "family": "DRp",
+        "hand": "LEFT"
+      }
+    },
+    "events": [
+      {
+        "during_step": 11,
+        "hand": "RIGHT",
+        "to": "TOP"
+      }
+    ]
+  },
+  "PLL Gb": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "6": {
+        "family": "FP",
+        "hand": "RIGHT"
+      },
+      "8": {
+        "family": "MIDDLE",
+        "hand": "RIGHT"
+      }
+    },
+    "events": [
+      {
+        "during_step": 3,
+        "hand": "RIGHT",
+        "to": "BOTTOM"
+      },
+      {
+        "during_step": 10,
+        "hand": "RIGHT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "PLL Gd": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "13": {
+        "family": "U4",
+        "hand": "RIGHT"
+      },
+      "15": {
+        "family": "D4",
+        "hand": "RIGHT"
+      },
+      "5": {
+        "family": "DRp",
+        "hand": "LEFT"
+      }
+    },
+    "events": [
+      {
+        "during_step": 7,
+        "hand": "RIGHT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "PLL H": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "PLL Ja": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "3": {
+        "family": "UN",
+        "hand": "RIGHT"
+      },
+      "9": {
+        "family": "UN",
+        "hand": "RIGHT"
+      }
+    },
+    "events": [],
+    "physical_algorithm": "Lw' R' F R F' R U2 Rw' U Rw U2"
+  },
+  "PLL Na": {
+    "u2_hand": "RIGHT",
+    "steps": {
+      "4": {
+        "family": "UOHp",
+        "hand": "LEFT"
+      },
+      "8": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      }
+    },
+    "events": [
+      {
+        "during_step": 12,
+        "hand": "RIGHT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "PLL Nb": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "14": {
+        "family": "UOHp",
+        "hand": "RIGHT"
+      }
+    },
+    "events": [
+      {
+        "during_step": 7,
+        "hand": "RIGHT",
+        "to": "BOTTOM"
+      },
+      {
+        "after_step": 12,
+        "hand": "RIGHT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "PLL Ra": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "12": {
+        "family": "D4",
+        "hand": "RIGHT"
+      },
+      "8": {
+        "family": "DRp",
+        "hand": "LEFT"
+      }
+    },
+    "events": []
+  },
+  "PLL Rb": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "12": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      }
+    },
+    "events": [
+      {
+        "during_step": 10,
+        "hand": "RIGHT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "PLL T": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "PLL Ub": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  },
+  "PLL Y": {
+    "u2_hand": "LEFT",
+    "steps": {
+      "5": {
+        "family": "MIDDLE",
+        "hand": "LEFT"
+      },
+      "9": {
+        "family": "INDEX",
+        "hand": "LEFT"
+      }
+    },
+    "events": [
+      {
+        "during_step": 13,
+        "hand": "RIGHT",
+        "to": "FRONT"
+      }
+    ]
+  },
+  "PLL Z": {
+    "u2_hand": "LEFT",
+    "steps": {},
+    "events": []
+  }
+}
